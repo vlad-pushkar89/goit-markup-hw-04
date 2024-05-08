@@ -102,12 +102,20 @@ body {
         margin-right: 76px;
 }
 
-.link-studio::after,
-.link-studio:hover {
-    border-radius: 2px;
-    width: 48px;
-    height: 4px;
+.hover {
+    position: relative;
+    color: #404bbf;
+}
+
+.hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
     background: #404bbf;
+    border-radius: 2px;
+        width: 48px;
+        height: 4px;
 }
 
 .menu-link {
@@ -224,11 +232,14 @@ body {
     width: calc((100% - 72px) / 4);
 }
 
-.benefits-icon {
+.container-icon {
     border: 1px solid #8e8f99;
         border-radius: 4px;
         width: 264px;
         height: 112px;
+        background: #f4f4fd;
+        padding: 24px 100px;
+        margin-bottom: 8px;
 }
 
 .page-third {
@@ -306,6 +317,26 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+}
+
+.menu-team-icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ellipse {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+
+.team-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .page-team {
