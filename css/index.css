@@ -75,6 +75,10 @@ body {
     padding-bottom: 24px;
 }
 
+.menu-item {
+    color: #404bbf;
+}
+
 .address-menu {
     display: flex;
     gap: 40px;
@@ -112,7 +116,7 @@ body {
 
 .hover {
     position: relative;
-    color: #404bbf;
+    /* color: #404bbf; */
 }
 
 .hover::after {
@@ -169,7 +173,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office/people-office\ 1\ \(1\).jpg);
+    url(../images/people-office\ 1\ \(1\).jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -335,31 +339,42 @@ body {
         color: #434455;
 }
 
-.menu-team-icon{
+.container-team-icon {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.menu-item-icon {
     display: flex;
-    justify-content: space-around;
-    margin-top: 8px;
-    /* margin-bottom: 32px; */
-}
-
-.ellipse {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-}
-
-.team-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    gap: 24px;
 }
 
 .item-team-icon {
+    width: 40px;
+    height: 40px;
 }
-   
+
+.link-team-icon {
+    height: 100%;
+    width: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-team-icon:hover,
+.link-team-icon:focus {
+    background-color: #404bbf;
+}
+
+.team-icon {
+    fill: #f4f4fd;
+}
+
 .page-team {
     background: #f4f4fd;
 }
@@ -472,11 +487,6 @@ body {
     padding-bottom: 100px;
 }
 
-.page-footer-icon {
-    display: flex;
-    gap: 120px;
-}
-
 .footer-color-studio {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -509,26 +519,3 @@ body {
         max-width: 264px;
 }
 
-.para-icon {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #ffffff;  
-        margin-bottom: 16px;     
-}
-
-.container-footer-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu-footer-icon {
-    display: flex;
-        justify-content: center;
-        gap: 16px;
-        align-items: center;
-}
