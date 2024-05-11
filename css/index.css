@@ -409,17 +409,17 @@ body {
     border-top: none; */
 }
 
-.item-overlay:hover .portf-overlay{
+/* .item-overlay:hover .portf-overlay{
     transform: translateY(0%);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+} */
 
-.images-portf {
+/* .images-portf {
     position: relative;
     overflow: hidden;
-}
+} */
 
-.portf-overlay {
+/* .portf-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -429,24 +429,14 @@ body {
     border: 1px solid #000000;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
-}
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+} */
 
-.images-portf:hover .portf-overlay {
+/* .images-portf:hover .portf-overlay {
     transform: translateY(0%);
-}
+} */
 
-.para-overlay {
-    font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-        margin-top: 42px;
-        margin-left: 32px;
-        margin-right: 32px;
-}
+
 
 .portf-second {
     font-weight: 700;
