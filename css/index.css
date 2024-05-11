@@ -168,16 +168,13 @@ body {
     margin-right: auto;
     margin-left: auto;
     background-color: #2e2f42;
-    background-image: 
-    linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office\ 1\ \(1\).jpg);
+    background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .page-first {
